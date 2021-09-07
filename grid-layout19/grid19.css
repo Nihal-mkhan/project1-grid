@@ -1,0 +1,36 @@
+.grid{
+    display: grid;
+    grid-template: 80px 80px 80px / 80px 80px 80px;
+    grid-gap: 20px 20px;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background: black;
+}
+#one{
+width: 180px;
+height: 80px;
+background: black;
+}
+#three{
+    grid-column: 3;
+}
+#four{
+    grid-column: 1;
+}
+#five{
+    grid-column: 2;
+}
+#six{
+    grid-column: 3;
+}
+#seven{
+    grid-column: 1;
+}
+#eight{
+    grid-column: 2;
+}
+#nine{
+    grid-column: 3;
+}

@@ -1,0 +1,10 @@
+.grid{
+    display: grid;
+    grid-template: 390px / 70px 70px 70px;
+    grid-gap:20px 20px;
+}
+.box{
+    width: 70px;
+    height: 350px;
+    background: black;
+}

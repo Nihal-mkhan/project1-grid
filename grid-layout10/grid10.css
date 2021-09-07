@@ -1,0 +1,25 @@
+.grid{
+    display: grid;
+    grid-template: 70px 350px 70px / 100px 200px;
+    grid-gap:20px 10px;
+}
+.box1{
+    width: 190px;
+    height: 350px;
+    background: black;
+    grid-row: 2;
+}
+.box2{
+    width: 80px;
+    height: 350px;
+    background: black;
+    grid-row: 2;
+}
+.main{
+    width: 300px;
+    height: 70px;
+    background: black;
+}
+#one{
+    grid-row: 3;
+}

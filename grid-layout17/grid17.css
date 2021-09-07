@@ -1,0 +1,32 @@
+.grid{
+    display:grid;
+    height: 500px;
+    width: 210px;
+    grid-template: 250px 250px/ 70px 25px 25px 70px;
+    grid-gap: 20px 20px;
+}
+.top{
+    width: 70px;
+    height: 250px;
+    background: black;
+}
+.bottom{
+    width: 115px;
+    height: 250px;
+    background: black;
+}
+#one{
+    grid-column: 1;
+}
+#two{
+    grid-column: 2 / 3;
+}
+#three{
+    grid-column: 4;
+}
+#four{
+    grid-column: 1 / 2;
+}
+#five{
+    grid-column: 3 / 4 ;
+}
